@@ -21,8 +21,8 @@ services:
       - "8100:80"
     environment:
       mongohost: '@ds139722.mlab.com:39722/'
-      username:
-      password:
+      username: salim
+      password: berlin2019
       database: studios
     stdin_open: true
     tty: true

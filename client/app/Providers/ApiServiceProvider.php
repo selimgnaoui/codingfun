@@ -4,7 +4,7 @@ namespace App\Providers;
 use App\Library\Service;
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider
+class ApiServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any application services.

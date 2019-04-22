@@ -1476,3 +1476,8 @@ d82802,172.22.0.2,GET,http://web/search/10/10/2000,1555866232,,200
 26383c,172.22.0.2,GET,http://web/search/10/10/2000,1555866304,,200
 91b6db,172.22.0.2,GET,http://web/searchlocation/10/20/2000,1555866362,,200
 d4030d,172.22.0.2,GET,http://web/search/berlin/true/yes/0/0,1555885068,,200
+e26e5d,172.18.0.1,GET,http://localhost:8100/,1555894231,,404
+1a85b9,172.18.0.1,GET,http://localhost:8100/favicon.ico,1555894232,e52f88,200
+e52f88,172.18.0.1,GET,http://localhost:8100/favicon.ico,1555894232,,404
+95bafc,172.18.0.1,GET,http://localhost:8100/search/berlin,1555894253,,200
+e9a2a1,172.18.0.2,GET,http://web/search/berlin/true/yes/0/0,1555895035,,200

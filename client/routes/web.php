@@ -21,7 +21,9 @@ Route::post('/', 'HomeController@submitform');
 Route::get('/displayall', 'HomeController@displayall');
 
 Route::get('/radiussearch', 'HomeController@radiussearch');
+
 Route::post('/radiussearch', 'HomeController@radiussearch');
+
 $this->app->singleton('App\Classes\Crudfunction', function ($app) {
     return new \App\Library\Classes\Crudfunction(env('ENDPOINT'),new GuzzleHttp\Client(),env('RADIUSSEARCH'));
 

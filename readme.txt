@@ -9,20 +9,9 @@ How to install ?
 
  How to install ( if you are pulling it form git)
   1) clone the project  and run docker-compose up -d
-  2) install composer depenedencies in the both projects (), (here I dont want composer to be installed on my host, therefore Im using the official composer DOcker image)
-    a) cd client
-    b) docker run --rm -v $(pwd):/app composer/composer install  --ignore-platform-reqs
-    c) cd ..
-    d) cd backend
-    f) docker-compose run web composer install
+  2) run  ./install.sh  (the will build all docker container, build compsoer dependencies etc ... )
   3) set the mongodb username and password in the docker-compose file (line 24 and 25 )
   4) navigate to localhost:80 ( if you are under an Unix System, otherwise get your docker-machien ip if you are using windows)
-
-
- How to install ( if you are extracting .tar)
-  1) extract the project
-  2) run docker-compose up -d
-  3) navigate to localhost
 
 
  Technologies and Frameworks used :
